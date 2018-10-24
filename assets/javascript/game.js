@@ -7,17 +7,17 @@ $(document).ready(function () {
     var wins = 0;
     var losses = 0;
     var bl = false;
-    var cpuRandom_1 = Math.floor(Math.random() * 12) + 1;
-    var cpuRandom_2 = Math.floor(Math.random() * 12) + 1;
-    var cpuRandom_3 = Math.floor(Math.random() * 12) + 1;
-    var cpuRandom_4 = Math.floor(Math.random() * 12) + 1;
+    // var cpuRandom_1 = Math.floor(Math.random() * 12) + 1;
+    // var cpuRandom_2 = Math.floor(Math.random() * 12) + 1;
+    // var cpuRandom_3 = Math.floor(Math.random() * 12) + 1;
+    // var cpuRandom_4 = Math.floor(Math.random() * 12) + 1;
 
-    $("#img_1").attr("value", cpuRandom_1);
-    console.log($("#img_1").attr("value"));
-    $("#img_2").attr("value", cpuRandom_2);
-    $("#img_3").attr("value", cpuRandom_3);
-    $("#img_4").attr("value", cpuRandom_4);
-
+    // $("#img_1").attr("value", cpuRandom_1);
+    // console.log($("#img_1").attr("value"));
+    // $("#img_2").attr("value", cpuRandom_2);
+    // $("#img_3").attr("value", cpuRandom_3);
+    // $("#img_4").attr("value", cpuRandom_4);
+resetFun();
     // $("#img_1").on("click", function () {
     //     totalScore += cpuRandom_1;
     //     // $("#totalScore").html(totalScore);
